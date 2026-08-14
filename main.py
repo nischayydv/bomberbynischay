@@ -1,5 +1,5 @@
 # ============================================
-# DEMON 😈 200+ API BOMBER - RENDER DEPLOYMENT
+#  😈 200+ API BOMBER - RENDER DEPLOYMENT
 # File: main.py
 # ============================================
 
@@ -914,6 +914,6 @@ def bomb():
 # ============================================
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
-    print(f"[DEMON] Starting on port {port}")
-    print(f"[DEMON] Total APIs: {len(API_LIST)}")
+    print(f"[Nischay] Starting on port {port}")
+    print(f"[Nischay] Total APIs: {len(API_LIST)}")
     app.run(host='0.0.0.0', port=port, debug=False)
